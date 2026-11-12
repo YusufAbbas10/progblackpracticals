@@ -9,7 +9,7 @@ function generateSentence() {
   const random_verb = Math.floor(Math.random() * verbs.length);
   const random_adverb = Math.floor(Math.random() * adverbs.length);
 
-  const sentence = `The ${nouns[random_noun]} ${adjectives[random_adjective]} ${verbs[random_verb]} ${adverbs[random_adverb]}`;
+  const sentence = `The ${adjectives[random_adjective]} ${nouns[random_noun]} ${verbs[random_verb]} ${adverbs[random_adverb]}`;
 
   document.getElementById("sentence").innerHTML = sentence;
 }
